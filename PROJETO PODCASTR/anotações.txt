@@ -1,4 +1,0 @@
-*paths vazio = nenhum ep de forma estatica
-fallback: false // ele não retorna nada (error 404)
-fallback: true // ele tenta buscar os dados para criar uma pagina estatica mas a requisição acontece pelo lado do browser (demora)
-fallback: 'blocking' //ele roda a requisição na camada do next.JS(node.js) melhor opção para SO
